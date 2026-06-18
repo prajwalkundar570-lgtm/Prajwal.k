@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prajwal K | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#0f4c81,#0066cc);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+header h1{
+    font-size:48px;
+}
+
+header h3{
+    margin-top:10px;
+    font-weight:400;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:30px;
+    margin-bottom:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.card h2{
+    color:#0f4c81;
+    margin-bottom:20px;
+    border-left:5px solid #0f4c81;
+    padding-left:10px;
+}
+
+.about{
+    line-height:1.8;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill{
+    background:#0f4c81;
+    color:white;
+    padding:10px 20px;
+    border-radius:30px;
+    font-weight:500;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.project{
+    border-left:5px solid #0f4c81;
+    background:#f8f9fa;
+    padding:20px;
+    border-radius:10px;
+}
+
+.project h3{
+    margin-bottom:10px;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+footer{
+    background:#0f4c81;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#0f4c81;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#ffd54f;
+    color:#000;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<h1>Prajwal K</h1>
+
+<h3>MBA Graduate | Data Analyst | Business Intelligence Enthusiast</h3>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>About Me</h2>
+
+<p class="about">
+
+Hello! I'm <strong>Prajwal K</strong>, an MBA graduate from
+<strong>Shri Madhwa Vadiraja Institute of Technology and Management (SMVITM), Udupi.</strong>
+
+I am passionate about Data Analytics, Business Intelligence, SQL, Excel, Power BI, and Python. I enjoy transforming raw data into meaningful business insights through dashboards, reports, and data visualization.
+
+My goal is to build a successful career as a Data Analyst where I can contribute to business growth using data-driven decision making.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Education</h2>
+
+<h3>Master of Business Administration (MBA)</h3>
+
+<p>Shri Madhwa Vadiraja Institute of Technology and Management (SMVITM), Udupi</p>
+
+</div>
+
+<div class="card">
+
+<h2>Technical Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Microsoft Excel</div>
+
+<div class="skill">SQL</div>
+
+<div class="skill">Power BI</div>
+
+<div class="skill">Python</div>
+
+<div class="skill">Data Analytics</div>
+
+<div class="skill">GitHub</div>
+
+<div class="skill">Dashboard Development</div>
+
+<div class="skill">Data Visualization</div>
+
+<div class="skill">Business Intelligence</div>
+
+<div class="skill">Data Cleaning</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+
+<h3>Petrol Price Analysis</h3>
+
+<p>
+Analyzed petrol prices across Indian states by comparing Central Excise Duty, State VAT, and dealer commissions. Built analytical reports to identify price differences.
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>Power BI Dashboard</h3>
+
+<p>
+Designed interactive dashboards with KPIs, slicers, charts, and drill-through reports to analyze business performance.
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>SQL Data Analysis</h3>
+
+<p>
+Created SQL queries using Joins, CTEs, Window Functions, Aggregate Functions, and Subqueries for business reporting.
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>Excel Analytics</h3>
+
+<p>
+Developed automated reports using Pivot Tables, XLOOKUP, INDEX-MATCH, Power Query, and advanced Excel formulas.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Career Objective</h2>
+
+<p class="about">
+
+To obtain a challenging position as a Data Analyst where I can apply my analytical skills, business knowledge, and technical expertise to help organizations make informed decisions through data.
+
+</p>
+
+</div>
+
+<div class="card contact" id="contact">
+
+<h2>Contact Information</h2>
+
+<p><strong>Name:</strong> Prajwal K</p>
+
+<p><strong>Mobile:</strong> +91 6360597677</p>
+
+<p><strong>Email:</strong> prajwalkundar570@gmail.com</p>
+
+<p><strong>GitHub:</strong>
+<a href="https://github.com/yourusername" target="_blank">
+https://github.com/yourusername
+</a>
+</p>
+
+</div>
+
+</div>
+
+<footer>
+
+<h3>Prajwal K</h3>
+
+<p>Turning Data into Decisions with Analytics.</p>
+
+<p>© 2026 All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
